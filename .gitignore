@@ -1,0 +1,28 @@
+﻿# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models (large files — optional, remove these lines if you want to include them)
+# models/*.joblib
+
+# Data (raw file is downloadable from Kaggle, no need to upload)
+data/WA_Fn-UseC_-Telco-Customer-Churn.csv
+data/telco.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
